@@ -1,0 +1,177 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+img{
+	display:block;
+	max-width: 100%;
+}
+header{
+	height: 420px;
+	background: url("../img/rest-bg.jpg") no-repeat center;
+	background-size: cover;
+	text-align: center;
+}
+header nav {
+	max-width: 420px;
+	margin: 0 auto;
+	box-shadow: 0 0 0 5px #202020;
+	background-color: #202020;
+	padding: 5px 0;
+	font-size: 20px;
+	font-family: 'Libre Baskerville', serif;
+	border: double;
+
+}
+header nav ul li{
+	margin: 0 auto;
+	display:inline-block;
+	margin-left: 25px;
+	margin-top:10px;
+}
+header nav ul li a{
+	color: #FFFFFF;
+	text-align: center;
+	letter-spacing: .1em;
+}
+header nav ul li a:hover{
+	color:#EF5656;
+}
+header nav ul li a.menu:after{
+	content: "\f1db";
+}
+header img{
+	display: block;
+	padding: 20px;
+	margin: 0 auto;
+}
+header h5{
+	color: #FFFFFF;
+	text-align: center;
+	letter-spacing: .1em;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 20px;
+	padding-top: 20px;
+}
+header p{
+	color: #FFFFFF;
+	text-align: center;
+	letter-spacing: .1em;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 20px;
+}
+header p:before, header p:after{
+	content: "";
+	display: inline-block;
+	width: 110px;
+	height: 2px;
+	color: #FFFFFF;
+	margin: 0px 15px 5px 15px;
+	background: #FFFFFF; 
+	
+}
+section{
+	margin: 0 auto;
+	background-color: #202020;
+}
+section h1{
+	padding-top: 50px;
+	padding-bottom: 40px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 45px;
+	letter-spacing: .2em;
+	color: #464545;
+}
+section h1:before{
+	content: "";
+	display: block;
+	width: 1000px;
+	height: 3px;
+	background: #464545;
+	margin: 0 auto;
+	margin-bottom: 15px;
+
+}
+section h1:after{
+	content: "";
+	display: block;
+	width: 1000px;
+	height: 3px;
+	background: #464545;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+section div{
+	float: left; width: 50%;
+	background-color: #202020;
+	padding-bottom: 50px;
+}	
+section div h3{
+	color:#EF5656;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 35px;
+	text-align: center;
+}
+section div ul li{
+	max-width: 100%;
+	margin-left: 14em;
+}
+section div ul li h4{
+	text-align: right;
+	margin-right: 150px;
+	color: #FFFFFF;
+	font-family: 'Libre Baskerville', serif;
+}
+section div ul li p{
+	text-align: right;
+	margin-right: 150px;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 19px;
+	font-style: italic;
+	color: #5E5C5C;
+	padding-bottom: 35px;
+}
+.login{
+	height: 420px;
+	background: url("../img/rest-bg.jpg") no-repeat center;
+	background-size: cover;
+	text-align: center;
+}
+.botao{
+	font-size: 25px;
+	font-family: 'Libre Baskerville', serif;
+	color: #FFFFFF;
+}
+.form{
+	background-color: #202020;
+	border: double;
+}
+footer{
+	background: #141414;
+	text-align: center;
+	background-size: cover;
+}
+footer div{
+	max-width: 420px;
+	margin: 0 auto;
+	padding: 5px 0;
+	font-size: 20px;
+	font-family: 'Libre Baskerville', serif;
+}
+footer div ul li{
+	margin: 0 auto;
+	display:inline-block;
+	padding-top: 20px;
+	margin-left: 25px;
+}
+footer div ul li a{
+	color: #464545;
+}
+footer div ul li a:hover{
+	color:#EF5656;
+}
+footer div ul li p{
+	font-size: 15px;
+	font-weight: bold;
+}
