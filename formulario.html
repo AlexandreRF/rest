@@ -1,178 +1,178 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
-    <title>Formulario</title>
+      <head>
+        <meta charset="utf-8">
+        <title>Formulario</title>
 
-    <link href='https://fonts.googleapis.com/css?family=Alegreya+SC' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="js/animacao.js"></script>
-  </head>
+        <link href='https://fonts.googleapis.com/css?family=Alegreya+SC' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="js/animacao.js"></script>
+      </head>
 
-  <body>
-    <header>
-      <nav>
-        <ul>
-            <li class="menu"><a href="menu.html">Menu</a></li>
-            <li class="sobre"><a href="sobre.html">Sobre</a></li>
-            <li><a href="contato.html">Contato</a></li>
-            <li><a href="cadastroelogin.html">Cadastro e login</a></li>
-        </ul>
-      </nav>
-      <img src="img/rest.png" alt="Imagem Rest">
-    </header>
+      <header>
+        <nav>
+          <ul>
+              <li class="menu"><a href="index.html">Menu</a></li>
+              <li class="sobre"><a href="sobre.html">Sobre</a></li>
+              <li class="contato"><a href="contato.html">Contato</a></li>
+          </ul>
+        </nav>
+        <img src="img/rest.png" alt="Imagem Rest">
+        <h5>
+          Rua Marechal 29 - Copacabana - Rj
+        </h5>
+        <p>2422-9201</p>
+      </header>
 	<body>
-				<div>
-						<form class="form-horizontal" name="cadastro">
-<fieldset>
+		<div class="form botao">
+	    <form class="form-horizontal" name="cadastro">
+          <fieldset>
 
-<!-- Form Name -->
-<legend>Cadastro</legend>
+            <!-- Form Name -->
+            <legend class="botao legenda">CADASTRO</legend>
 
-<!-- Text input-->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="txtnome">Nome</label>  
-  <div class="col-md-6">
-  <input id="txtnome" name="txtnome" type="text" placeholder="Digite o seu nome" class="form-control input-md" required="">
-    
-  </div>
-</div>
+              <!-- Text input-->
+              <div class="form-group user">
+                <label class="col-md-4 control-label" for="txtnome">Nome</label>  
+                <div class="col-md-6">
+                    <input id="txtnome" name="txtnome" type="text" placeholder="Digite o seu nome" class="form-control input-md" required="">                 
+                </div>
+              </div>
 
-<!-- Text input-->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="txtcidade">Cidade</label>  
-  <div class="col-md-5">
-  <input id="txtcidade" name="txtcidade" type="text" placeholder="Digite sua cidade" class="form-control input-md" required="">
-    
-  </div>
-</div>
+              <!-- Text input-->
+              <div class="form-group">
+                <label class="col-md-4 control-label" for="txtcidade">Cidade</label>  
+                <div class="col-md-5">
+                    <input id="txtcidade" name="txtcidade" type="text" placeholder="Digite sua cidade" class="form-control input-md" required="">                 
+                </div>
+              </div>
 
-<!-- Text input-->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="txtestado">Estado</label>  
-  <div class="col-md-1">
-  <input id="txtestado" name="txtestado" type="text" placeholder="" class="form-control input-md" required="">
-    
-  </div>
-</div>
+              <!-- Text input-->
+              <div class="form-group">
+                <label class="col-md-4 control-label" for="txtestado">Estado</label>  
+                <div class="col-md-1">
+                    <input id="txtestado" name="txtestado" type="text" placeholder="" class="form-control input-md" required="">                 
+                </div>
+              </div>
 
-<!-- Text input-->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="txtcep">CEP</label>  
-  <div class="col-md-4">
-  <input id="txtcep" name="txtcep" type="number" placeholder="" class="form-control input-md" required="">
-  <span class="help-block">00000-000</span>  
-  </div>
-</div>
+              <!-- Text input-->
+              <div class="form-group">
+                <label class="col-md-4 control-label" for="txtcep">CEP</label>  
+                <div class="col-md-4">
+                    <input id="txtcep" name="txtcep" type="number" placeholder="" class="form-control input-md" required="">
+                    <span class="help-block">00000-000</span>  
+                </div>
+              </div>
 
-<!-- Text input-->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="txtcpf">CPF</label>  
-  <div class="col-md-4">
-  <input id="txtcpf" name="txtcpf" type="text" placeholder="" class="form-control input-md" required="" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" title="digite o CPF com todos os dígitos">
-  <span class="help-block">000.000.000-00</span>  
-  </div>
-</div>
+              <!-- Text input-->
+              <div class="form-group">
+                <label class="col-md-4 control-label" for="txtcpf">CPF</label>  
+                <div class="col-md-4">
+                    <input id="txtcpf" name="txtcpf" type="text" placeholder="" class="form-control input-md" required="" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" title="digite o CPF com todos os dígitos">
+                    <span class="help-block">000.000.000-00</span>  
+                </div>
+              </div>
 
-<!-- Text input-->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="txtdatanascimento">Data de Nascimento</label>  
-  <div class="col-md-4">
-  <input id="txtdatanascimento" name="txtdatanascimento" type="date" placeholder="" class="form-control input-md" required="">
-  <span class="help-block">00/00/0000</span>  
-  </div>
-</div>
+              <!-- Text input-->
+              <div class="form-group">
+                <label class="col-md-4 control-label" for="txtdatanascimento">Data de Nascimento</label>  
+                <div class="col-md-4">
+                    <input id="txtdatanascimento" name="txtdatanascimento" type="date" placeholder="" class="form-control input-md" required="">
+                    <span class="help-block">00/00/0000</span>  
+                </div>
+              </div>
 
-<!-- Text input-->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="txtidade">Idade</label>  
-  <div class="col-md-1">
-  <input id="txtidade" name="txtidade" type="number" placeholder="" class="form-control input-md" required="">
-    
-  </div>
-</div>
+              <!-- Text input-->
+              <div class="form-group">
+                <label class="col-md-4 control-label" for="txtemail">E-mail</label>  
+                <div class="col-md-6">
+                    <input id="txtemail" name="txtemail" type="email" placeholder="Digite seu e-mail" class="form-control input-md" required="">                  
+                </div>
+              </div>
 
-<!-- Text input-->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="txtemail">E-mail</label>  
-  <div class="col-md-6">
-  <input id="txtemail" name="txtemail" type="email" placeholder="Digite seu e-mail" class="form-control input-md" required="">
-    
-  </div>
-</div>
+              <!-- Multiple Radios -->
+              <div class="form-group">
+                <label class="col-md-4 control-label" for="txtsexo">Sexo</label>
+                <div class="col-md-4">
+                  <div class="radio">
+                    <label for="txtsexo-0">
+                      <input type="radio" name="txtsexo" id="txtsexo-0" value="M">
+                      Masculino
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label for="txtsexo-1">
+                      <input type="radio" name="txtsexo" id="txtsexo-1" value="F">
+                      Feminino
+                    </label>
+                  </div>
+                </div>
+              </div>
 
-<!-- Textarea -->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="txtsoftwares">Softwares</label>
-  <div class="col-md-4">                     
-    <textarea class="form-control" id="txtsoftwares" name="txtsoftwares">Digite seus softwares</textarea>
-  </div>
-</div>
+              <!-- Select Basic -->
+              <div class="form-group">
+                <label class="col-md-4 control-label" for="txtestadocivil">Estado Civil</label>
+                <div class="col-md-4">
+                  <select id="txtestadocivil" name="txtestadocivil" class="form-control">
+                    <option value="S">Solteiro</option>
+                    <option value="C">Casado</option>
+                    <option value="D">Divorciado</option>
+                    <option value="V">Viúvo</option>
+                  </select>
+                </div>
+              </div>
 
-<!-- Multiple Radios -->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="txtsexo">Sexo</label>
-  <div class="col-md-4">
-  <div class="radio">
-    <label for="txtsexo-0">
-      <input type="radio" name="txtsexo" id="txtsexo-0" value="M">
-      Masculino
-    </label>
-	</div>
-  <div class="radio">
-    <label for="txtsexo-1">
-      <input type="radio" name="txtsexo" id="txtsexo-1" value="F">
-      Feminino
-    </label>
-	</div>
-  </div>
-</div>
+              <!-- Password input-->
+              <div class="form-group">
+                <label class="col-md-4 control-label" for="txtsenha">Senha</label>
+                <div class="col-md-4">
+                  <input id="txtsenha" name="txtsenha" type="password" placeholder="Digite sua senha" class="form-control input-md" required="">
+                  
+                </div>
+              </div>
 
-<!-- Select Basic -->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="txtestadocivil">Estado Civil</label>
-  <div class="col-md-4">
-    <select id="txtestadocivil" name="txtestadocivil" class="form-control">
-      <option value="S">Solteiro</option>
-      <option value="C">Casado</option>
-      <option value="D">Divorciado</option>
-      <option value="V">Viúvo</option>
-    </select>
-  </div>
-</div>
+              <!-- Text input-->
+              <div class="form-group">
+                <label class="col-md-4 control-label" for="txtcelular">Celular/Whatsapp</label>  
+                <div class="col-md-4">
+                    <input id="txtcelular" name="txtcelular" type="tel" placeholder="Digite seu numero" class="form-control input-md" required="">                  
+                </div>
+              </div>
 
-<!-- Password input-->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="txtsenha">Senha</label>
-  <div class="col-md-4">
-    <input id="txtsenha" name="txtsenha" type="password" placeholder="Digite sua senha" class="form-control input-md" required="">
-    
-  </div>
-</div>
+              <!-- Button -->
+              <div class="form-group">
+                <label class="col-md-4 control-label" for="btvoltar"></label>
+                <div class="col-md-2">                 
+                    <a href="cadastroelogin.html" class="button">
+                        <button id="btnvoltar" name="btnvoltar" class="btn btn-danger">Voltar</button>
+                    </a>
+                    <a href="cadastroelogin.html" class="button">Voltar</a>                 
+                </div>
+                <label class="col-md-1 control-label" for="btnenviar"></label>
+                <div class="col-md-2 button_enviar">
+                    <a href="" class="button">
+                        <button id="btnenviar" name="btnenviar" class="btn btn-primary">Enviar</button>
+                    </a>                      
+                </div>           
+              </div>
 
-<!-- Text input-->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="txtcelular">Celular/Whatsapp</label>  
-  <div class="col-md-4">
-  <input id="txtcelular" name="txtcelular" type="tel" placeholder="Digite seu numero" class="form-control input-md" required="">
-    
-  </div>
-</div>
-
-<!-- Button -->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="btnenviar"></label>
-  <div class="col-md-4">
-    <button id="btnenviar" name="btnenviar" class="btn btn-primary">Enviar</button>
-  </div>
-</div>
-
-</fieldset>
-</form>
-
-				</div>
+        </fieldset>
+     </form>
+    </div>
+    <footer>
+			<div>
+				<ul>
+					<li class="menu"><a href="index.html">Menu</a></li>
+					<li class="sobre"><a href="sobre.html">Sobre</a></li>
+					<li class="contato"><a href="contato.html">Contato</a></li>
+					<li class="cadastroelogin"><a href="cadastroelogin.html">Cadastro e login</a></li>
+					<li><p>REST © 2015. ALGUNS DIREITOS RESERVADOS</p></li>
+					
+				</ul>
+			</div>
+		</footer>	
 	</body>

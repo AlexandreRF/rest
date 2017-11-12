@@ -1,74 +1,89 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Cadastro e Login</title>
-	<link href='https://fonts.googleapis.com/css?family=Alegreya+SC' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/styles.css">
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<script src="js/animacao.js"></script>
-</head>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Cadastro e Login</title>
+		<link href='https://fonts.googleapis.com/css?family=Alegreya+SC' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="js/animacao.js"></script>
+	</head>
 	<body>
 		<header>
 				<nav>
 					<ul>
-						<li class="menu"><a href="menu.html">Menu</a></li>
+						<li class="menu"><a href="index.html">Menu</a></li>
 						<li class="sobre"><a href="sobre.html">Sobre</a></li>
-						<li><a href="contato.html">Contato</a></li>
-						<li><a href="cadastroelogin.html">Cadastro e Login</a></li>
+						<li class="contato"><a href="contato.html">Contato</a></li>
 					</ul>
 				</nav>
 				<img src="img/rest.png" alt="Imagem Rest">
+				<h5>
+					Rua Marechal 29 - Copacabana - Rj
+				</h5>
+				<p>2422-9201</p>
 		</header>
 		<div>
 			<form class="form-horizontal form">
-<fieldset>
+				<fieldset>
 
-<!-- Form Name -->
-<legend class="botao">Cadastro e Login</legend>
+					<!-- Form Name -->
+					<legend class="botao legenda">CADASTRO E LOGIN</legend>
 
-<!-- Text input-->
-<div class="form-group">
-  		<label class="col-md-4 control-label botao" for="txtusuario">Usuário</label>  
-  	<div class="col-md-5">
-  		<input id="txtusuario" name="txtusuario" type="text" placeholder="Digite o nome de usuário" class="form-control input-md" required="">
-    
-  	</div>
-</div>
+					<!-- Text input-->
+					<div class="form-group user">
+							<label class="col-md-4 control-label botao" for="txtusuario">Usuário</label>  
+						<div class="col-md-5">
+							<input id="txtusuario" name="txtusuario" type="text" placeholder="Digite o nome de usuário" class="form-control input-md" required="">
+						
+						</div>
+					</div>
 
-<!-- Text input-->
-<div class="form-group">
- 	 <label class="col-md-4 control-label botao" for="txtsenha">Senha</label>  
- 	<div class="col-md-5">
-  		<input id="txtsenha" name="txtsenha" type="text" placeholder="Digite sua senha" class="form-control input-md" required="">
-  		<span class="help-block">No máximo 8 caracteres</span>  
-  	</div>
-</div>
+					<!-- Text input-->
+					<div class="form-group">
+						<label class="col-md-4 control-label botao" for="txtsenha">Senha</label>  
+						<div class="col-md-5">
+							<input id="txtsenha" name="txtsenha" type="text" placeholder="Digite sua senha" class="form-control input-md" required="">
+							<span class="help-block">No máximo 8 caracteres</span>  
+						</div>
+					</div>
 
-<!-- Button (Double) -->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="txtentrar"></label>
-  <div class="col-md-8">
-    <button id="txtentrar" name="txtentrar" class="btn btn-primary">Entrar</button>
-    <button id="txtcadastrar" name=""  class="btn btn-success">
-			<a href="formulario.html" class="button">Cadastrar</a>
-    </button>
-    
-   
-  </div>
-</div>
+					<!-- Button (Double) -->
+					<div class="form-group">
+						<label class="col-md-4 control-label" for="txtentrar"></label>
+						<div class="col-md-8">					
+							<a href="index.html" class="button button_form">
+								<button id="txtvoltar" name="" class="btn btn-danger">Voltar</button>
+							</a>										
+							<a href="" class="button button_form">
+								<button id="txtentrar" name="txtentrar" class="btn btn-primary">Entrar</button>
+							</a>					
+							<a href="formulario.html" class="button button_form">
+								<button id="txtcadastrar" name=""  class="btn btn-success">Cadastrar</button>
+							</a>		
 
-</fieldset>
-</form>
+							<a href="index.html" class="button button_form">Voltar</a>
+							<a href="formulario.html" class="button button_form">Cadastrar</a>
+						</div>
+					</div>
 
+				</fieldset>
+			</form>
 		</div>
-
-
+		<footer>
+			<div>
+				<ul>
+					<li class="menu"><a href="index.html">Menu</a></li>
+					<li class="sobre"><a href="sobre.html">Sobre</a></li>
+					<li class="contato"><a href="contato.html">Contato</a></li>
+					<li class="cadastroelogin"><a href="cadastroelogin.html">Cadastro e login</a></li>
+					<li><p>REST © 2015. ALGUNS DIREITOS RESERVADOS</p></li>					
+				</ul>
+			</div>
+		</footer>
 	</body>
-</html>
-</body>
 </html>
